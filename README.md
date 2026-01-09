@@ -8,7 +8,8 @@
 
 ## 📋 Project Overview
 
-I built a production-grade, highly available web application infrastructure on AWS, demonstrating enterprise-level cloud architecture with automated scaling, intelligent load balancing, and secure communication between application and backend services.
+I built a highly available web application infrastructure on AWS, demonstrating robust cloud architecture with automated scaling, load balancing, and secure communication between application and backend services.
+
 
 ![Architecture Diagram](./ProjectImages/Architecture_Diagram.jpeg)
 
