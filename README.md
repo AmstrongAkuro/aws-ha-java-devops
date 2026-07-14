@@ -173,9 +173,8 @@ I configured comprehensive monitoring and health checks:
 
 ##  What I Achieved
 
-- Implemented zero-downtime deployment using Auto Scaling Groups
-- Achieved 99.9% uptime through multi-AZ architecture
-- Reduced response time by 40% with Memcached integration
+-Designed for high availability using multiple Availability Zones and Auto Scaling Groups.
+- Reduced response time with Memcached integration
 - Secured all traffic with AWS Certificate Manager SSL/TLS
 - Automated infrastructure scaling based on real-time demand
 
