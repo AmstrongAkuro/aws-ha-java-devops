@@ -6,14 +6,14 @@
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-## 📋 Project Overview
+##  Project Overview
 
 I built a highly available web application infrastructure on AWS, demonstrating robust cloud architecture with automated scaling, load balancing, and secure communication between application and backend services.
 
 
 ![Architecture Diagram](./ProjectImages/Architecture_Diagram.jpeg)
 
-## 🏗️ What I Built
+##  What I Built
 
 ### Frontend Layer
 I configured **Namecheap DNS** to point my custom domain to an **AWS Application Load Balancer**, which handles all incoming HTTPS traffic. I secured the connection using an SSL/TLS certificate managed through **AWS Certificate Manager (ACM)**, ensuring all user traffic is encrypted end-to-end.
@@ -29,7 +29,7 @@ I set up three critical backend services on separate EC2 instances:
 
 To enable seamless communication between the application and backend services, I created a **Route 53 Private Hosted Zone** where I registered the private IP addresses of each backend service with friendly DNS names.
 
-## 🔒 Security Implementation
+##  Security Implementation
 
 I implemented a three-tier security group architecture to ensure proper network isolation:
 
@@ -59,17 +59,17 @@ I implemented a three-tier security group architecture to ensure proper network 
 
 
 
-## 🚀 Key Features I Implemented
+##  Key Features I Implemented
 
-- ✅ **High Availability**: Deployed across multiple availability zones for fault tolerance
-- ✅ **Auto Scaling**: Set up dynamic scaling policies based on CPU and network utilization
-- ✅ **Secure Communication**: Implemented end-to-end HTTPS encryption with ACM
-- ✅ **Service Discovery**: Configured internal DNS resolution for backend services
-- ✅ **Load Distribution**: Configured intelligent traffic routing through ALB
-- ✅ **Performance Optimization**: Integrated Memcached to significantly reduce database queries
-- ✅ **Asynchronous Processing**: Leveraged RabbitMQ for decoupled operations
+-  **High Availability**: Deployed across multiple availability zones for fault tolerance
+-  **Auto Scaling**: Set up dynamic scaling policies based on CPU and network utilization
+-  **Secure Communication**: Implemented end-to-end HTTPS encryption with ACM
+-  **Service Discovery**: Configured internal DNS resolution for backend services
+-  **Load Distribution**: Configured intelligent traffic routing through ALB
+-  **Performance Optimization**: Integrated Memcached to significantly reduce database queries
+-  **Asynchronous Processing**: Leveraged RabbitMQ for decoupled operations
 
-## 📊 Application Flow
+##  Application Flow
 
 I designed the traffic flow as follows:
 
@@ -89,7 +89,7 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 
 
 
-## 🛠️ Technologies I Used
+##  Technologies I Used
 
 | Component | Technology |
 |-----------|-----------|
@@ -106,7 +106,7 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 | **Build Tool** | Apache Maven |
 | **Language** | Java |
 
-## 📸 Project Implementation
+##  Project Implementation
 
 ### AWS Console - EC2 Instances
 ![EC2 Instances](./ProjectImages/ec2_instance.png)
@@ -139,7 +139,7 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 
 
 
-## 🔧 How I Deployed This Project
+##  How I Deployed This Project
 
 1. **Built the Application**
    I used Maven to compile and package the Java application:
@@ -161,7 +161,7 @@ Backend Services (MySQL, Memcached, RabbitMQ)
 
 ![Deployment Process](./ProjectImages/namecheap1.png)
 
-## 📈 Performance & Monitoring
+##  Performance & Monitoring
 
 I configured comprehensive monitoring and health checks:
 - Auto Scaling metrics tracking CPU utilization, network traffic, and request count
@@ -171,7 +171,7 @@ I configured comprehensive monitoring and health checks:
 
 ![Monitoring Dashboard](./ProjectImages/monitor_.png)
 
-## 🎯 What I Achieved
+##  What I Achieved
 
 - Implemented zero-downtime deployment using Auto Scaling Groups
 - Achieved 99.9% uptime through multi-AZ architecture
@@ -179,7 +179,7 @@ I configured comprehensive monitoring and health checks:
 - Secured all traffic with AWS Certificate Manager SSL/TLS
 - Automated infrastructure scaling based on real-time demand
 
-## 📝 Technical Highlights
+##  Technical Highlights
 
 ### Application Configuration
 I configured the application to:
@@ -191,7 +191,7 @@ I configured the application to:
 ### Infrastructure Approach
 I designed this infrastructure to be reproducible and maintainable through infrastructure as code principles and version-controlled configuration.
 
-## 🔮 What I Plan to Add Next
+##  What I Plan to Add Next
 
 - [ ] CI/CD pipeline integration with Jenkins or GitHub Actions
 - [ ] CloudWatch monitoring dashboards and alerting
@@ -199,7 +199,7 @@ I designed this infrastructure to be reproducible and maintainable through infra
 - [ ] Database replication for enhanced availability
 - [ ] CloudFront CDN integration for static content delivery
 
-## 👨‍💻 About Me
+##  About Me
 
 **Amstrong Bumtu Akuro**
 
@@ -207,4 +207,4 @@ I designed this infrastructure to be reproducible and maintainable through infra
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmstrongAkuro/)
 
 
-⭐ If you find this project interesting, please consider giving it a star🙂!
+ If you find this project interesting, please consider giving it a star!
